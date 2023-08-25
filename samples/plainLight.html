@@ -1,17 +1,24 @@
 <!doctype html>
-<html lang="{pageLanguage}">
+<html lang="en-UK">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    {websiteFavicon}
-    {meta}
+    <link rel='icon' type='image/x-icon' href='/img/favicon.png'>
+    <!-- A simple test page -->
     {analytics}
-    <title>{websiteTitle} - {pageTitle}</title>
+    <title>Test - Home Page</title>
     <link rel="stylesheet" href="https://unpkg.com/sakura.css/css/sakura.css" type="text/css">
+    <style>
+        nav {display: flex; justify-content: space-between;}
+    </style>
 </head>
 <body>
-<header><nav><div><a href="{websiteURL}" title="{websiteTitle}"><img src="img/logo.svg" style="height:1em;width:1em"></a></div> <div>{websiteMenu}</div></nav></header>
-<section>{pageContent}</section>
-<footer>{WebsiteFooter} {websiteLicence}</footer>
+<header><nav><div><a href="https://testurl.org" title="Test"><img src="img/logo.svg" style="height:1em;width:1em"></a></div> <div><ul><li>link 1</li></ul></div></nav></header>
+<section><h1>A test home page</h1>
+<blockquote>
+<p>with a very simple test</p>
+</blockquote>
+<p>A very simple one, indeed</p></section>
+<footer><p>Here the footer</p> <p>Here the license with link</p></footer>
 </body>
 </html>
