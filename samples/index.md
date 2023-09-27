@@ -1,11 +1,11 @@
 ---
 title: "Home Page"
-date: "2023-05-01"
-lang: "en-UK"
-description: "A simple test page"
+date: "2023-09-01"
+lang: "it-IT"
+description: "Una semplice home page"
 ---
-# A test home page
+> Le chiacchiere costano poco.
+> Mostrami il codice.
+> <cite>Linus Torvalds</cite>
 
->with a very simple test
-
-A very simple one, indeed
+Benvenuti sul sito del FermoLUG!
