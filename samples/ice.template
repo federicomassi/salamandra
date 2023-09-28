@@ -16,7 +16,6 @@
         <meta property="og:image" content="http://www.fermolug.it/img/social_pic.jpg" />
         <meta property="og:url" content="{websiteURL}" />
         <meta property="og:description" content="FermoLUG, il sito web" />
-        <meta property="fb:admins" content="721547906" />
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:url" content="{websiteURL}" />
         <meta name="twitter:title" content="Home" />
@@ -50,9 +49,9 @@
         <header>
       <nav>
         <a href="https://fermolug.it/"><img src="img/logo_fmlug.svg" alt="Logo FermoLUG"><img src="img/text_fmlug.svg" alt="FermoLUG, software libero e figherrimo a Fermo"></a>
-        <a href="https://fermolug.it/" title="Il calendario eventi del FermoLUG"><img src="img/calendar.svg" alt="Calendario"></a>
-        <a href="https://fermolug.it/" title="I nostri progetti"><img src="img/beaker.svg" alt="Progetti"></a>
-        <a href="https://fermolug.it/" title="Contatti e social"><img src="img/chat.svg" alt="Contatti e Social"></a>
+        <a href="https://fermolug.it/calendario.html" title="Il calendario eventi del FermoLUG"><img src="img/calendar.svg" alt="Calendario"></a>
+        <a href="https://fermolug.it/progetti.html" title="I nostri progetti"><img src="img/beaker.svg" alt="Progetti"></a>
+        <a href="https://fermolug.it/contatti.html" title="Contatti e social"><img src="img/chat.svg" alt="Contatti e Social"></a>
       </nav>
     </header>
     <nav>
@@ -63,10 +62,10 @@
     </nav>
     <section>
       <h1>{pageTitle}</h1>
-      <aside><h6>Azioni (Condividi, Contribuisci)</h6><i>Data: {pagePublishedOn}</i><a href="none" title="Modifica su Github"><img class="inlineimg" src="img/edit.svg">Contribuisci</a> <a href="none"><img src="img/fire_bl.svg" class="inlineimg"> Condividi 1</a> <a href="none"><img src="img/whatsapp_bl.svg" class="inlineimg"> Condividi 2</a> <a href="none"><img src="img/mastodon_bl.svg" class="inlineimg"> Condividi 3</a></aside>
+      <aside><h6>Azioni (Condividi, Contribuisci)</h6><i>Data: {pagePublishedOn}</i> <!--<a href="none" title="Modifica su Github"><img class="inlineimg" src="img/edit.svg">Contribuisci</a>--> <a href="whatsapp:whatsapp://send?text=https://fermolug.it/{pageLink}"><img src="img/whatsapp_bl.svg" class="inlineimg"> Condividi su WhatsApp</a> <!--<a href="none"><img src="img/mastodon_bl.svg" class="inlineimg"> Condividi su Mastodon</a>--></aside>
       {pageContent}
     </section>
-    <aside class="focus_el"><img src="img/fire_bl.svg" alt="Argomenti caldi"> <a href="none">Articolo recente</a> <a href="none">Articolo recente</a> <a href="none">Articolo recente</a> <a href="none">Articolo recente</a>
+    <aside class="focus_el"><img src="img/fire_bl.svg" alt="Argomenti caldi"> <a href="articoli.html">articoli.html</a> <a href="articoli.html">articoli.html</a> <a href="articoli.html">articoli.html</a> <a href="none">articoli.html</a>
     </aside>
     <aside>
       <details>
