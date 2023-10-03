@@ -7,4 +7,4 @@ description: "Come contattare il FermoLUG"
 
 FermoLUG è raggiungibile tramite il sito web, i canali social, l'email.
 
-<a href="https://mastodon.uno/@FermoLUG" target="_blank"><img src="img/mastodon.svg"><br>Mastodon</a>
+![<img src="img/mastodon.svg"><br>Mastodon](https://mastodon.uno/@FermoLUG)
