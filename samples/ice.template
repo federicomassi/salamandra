@@ -23,7 +23,7 @@
         <meta name="twitter:image" content="http://www.fermolug.it/img/social_pic.jpg" />
         <meta name="author" content="FermoLUG" />
         <link type="text/plain" rel="author" href="http://www.fermolug.it/humans.txt" />
-""        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/light.css" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/light.css" />
         <style>
       :root {
         --links: #0070CC;
