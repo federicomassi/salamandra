@@ -6,11 +6,11 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>{websiteTitle}</title>
         {websiteFavicon}
-        <meta name="generator" content="vombato" />
+        <meta name="generator" content="Vombato" />
         <meta name="description" content="FermoLUG, il sito web" />
         {websiteAnalytic}
-        <meta name="keywords" content="informatica, ebook, ereader, guide, opensource, foss" />
-        <meta name="robot" content="index,follow" />
+        <meta name="keywords" content="informatica, opensource, foss" />
+        <meta name="robot" content="index, follow" />
         <meta property="og:title" content="Home" />
         <meta property="og:type" content="article" />
         <meta property="og:image" content="http://www.fermolug.it/img/social_pic.jpg" />
@@ -22,7 +22,8 @@
         <meta name="twitter:description" content="FermoLUG, il sito web" />
         <meta name="twitter:image" content="http://www.fermolug.it/img/social_pic.jpg" />
         <meta name="author" content="FermoLUG" />
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/light.css" />
+        <link type="text/plain" rel="author" href="http://www.fermolug.it/humans.txt" />
+""        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/light.css" />
         <style>
       :root {
         --links: #0070CC;
@@ -62,11 +63,10 @@
     </nav>
     <section>
       <h1>{pageTitle}</h1>
-      <aside><h6>Azioni (Condividi, Contribuisci)</h6><i>Data: {pagePublishedOn}</i> <!--<a href="none" title="Modifica su Github"><img class="inlineimg" src="img/edit.svg">Contribuisci</a>--> <a href="whatsapp:whatsapp://send?text=https://fermolug.it/{pageLink}"><img src="img/whatsapp_bl.svg" class="inlineimg"> Condividi su WhatsApp</a> <!--<a href="none"><img src="img/mastodon_bl.svg" class="inlineimg"> Condividi su Mastodon</a>--></aside>
+      <!--<aside><h6>Azioni (Condividi, Contribuisci)</h6><i>Data: {pagePublishedOn}</i> <a href="none" title="Modifica su Github"><img class="inlineimg" src="img/edit.svg">Contribuisci</a> <a href="whatsapp:whatsapp://send?text=https://fermolug.it/{pageLink}"><img src="img/whatsapp_bl.svg" class="inlineimg"> Condividi su WhatsApp</a> <a href="none"><img src="img/mastodon_bl.svg" class="inlineimg"> Condividi su Mastodon</a></aside>-->
       {pageContent}
     </section>
-    <aside class="focus_el"><img src="img/fire_bl.svg" alt="Argomenti caldi"> <a href="articoli.html">articoli.html</a> <a href="articoli.html">articoli.html</a> <a href="articoli.html">articoli.html</a> <a href="none">articoli.html</a>
-    </aside>
+    {WebsiteArticlesWidget}
     <aside>
       <details>
         <summary>Info e Guide</summary>
