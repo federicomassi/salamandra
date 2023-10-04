@@ -4,22 +4,22 @@
     <meta charset="UTF-8">
      <meta http-equiv="X-UA-Compatible" content="IE=edge">                      
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>{websiteTitle}</title>
+        <title>{websiteTitle} - {pageTitle}</title>
         {websiteFavicon}
-        <meta name="generator" content="Vombato" />
-        <meta name="description" content="FermoLUG, il sito web" />
+        <meta name="generator" content="{generator}" />
+        <meta name="description" content="{metadataDescription}" />
         {websiteAnalytic}
-        <meta name="keywords" content="informatica, opensource, foss" />
+        <meta name="keywords" content="{metadataKeywords}" />
         <meta name="robot" content="index, follow" />
-        <meta property="og:title" content="Home" />
+        <meta property="og:title" content="{pageTitle}" />
         <meta property="og:type" content="article" />
         <meta property="og:image" content="http://www.fermolug.it/img/social_pic.jpg" />
         <meta property="og:url" content="{websiteURL}" />
-        <meta property="og:description" content="FermoLUG, il sito web" />
+        <meta property="og:description" content="{metadataDescription}" />
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:url" content="{websiteURL}" />
-        <meta name="twitter:title" content="Home" />
-        <meta name="twitter:description" content="FermoLUG, il sito web" />
+        <meta name="twitter:title" content="{pageTitle}" />
+        <meta name="twitter:description" content="{metadataDescription}" />
         <meta name="twitter:image" content="http://www.fermolug.it/img/social_pic.jpg" />
         <meta name="author" content="FermoLUG" />
         <link type="text/plain" rel="author" href="http://www.fermolug.it/humans.txt" />
@@ -49,10 +49,7 @@
       <body>
         <header>
       <nav>
-        <a href="https://fermolug.it/"><img src="img/logo_fmlug.svg" alt="Logo FermoLUG"><img src="img/text_fmlug.svg" alt="FermoLUG, software libero e figherrimo a Fermo"></a>
-        <a href="https://fermolug.it/calendario.html" title="Il calendario eventi del FermoLUG"><img src="img/calendar.svg" alt="Calendario"></a>
-        <a href="https://fermolug.it/progetti.html" title="I nostri progetti"><img src="img/beaker.svg" alt="Progetti"></a>
-        <a href="https://fermolug.it/contatti.html" title="Contatti e social"><img src="img/chat.svg" alt="Contatti e Social"></a>
+        {websiteNavbar}
       </nav>
     </header>
     <nav>
@@ -131,6 +128,5 @@
     <footer>
       {WebsiteFooter}
     </footer>
-	<script src="index.js"></script>
   </body>
 </html>
