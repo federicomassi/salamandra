@@ -96,6 +96,9 @@
 			"name": "edit.svg"
 		},
 		{
+			"name": "facebook.svg"
+		},
+		{
 			"name": "facemask.svg"
 		},
 		{
@@ -109,6 +112,9 @@
 		},
 		{
 			"name": "github.svg"
+		},
+		{
+			"name": "instagram.svg"	
 		},
 		{
 			"name": "logo_fmlug.svg"
@@ -135,6 +141,12 @@
 			"name": "piccolo_passo_per_la_comunita.jpg"
 		},
 		{
+			"name": "shopping.svg"
+		},
+		{
+			"name": "telegram.svg"
+		},
+		{
 			"name": "text_fmlug.svg"
 		},
 		{
@@ -145,6 +157,9 @@
 		},
 		{
 			"name": "whatsapp_gn.svg"
+		},
+		{
+			"name": "youtube.svg"
 		}
 	],
 	"fnt": [
