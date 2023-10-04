@@ -1,5 +1,5 @@
 ---
-title: "Contatti"
+title: "Direttivo"
 date: "2023-09-01"
 lang: "it-IT"
 description: "Organigramma e consiglio direttivo del FermoLUG"
