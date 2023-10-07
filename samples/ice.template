@@ -25,9 +25,7 @@
         <link type="text/plain" rel="author" href="http://www.fermolug.it/humans.txt" />
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/light.css" />
         <style>
-      :root {
-        --links: #0070CC;
-      }
+      :root {--links: #0070CC;}
       @font-face {
         font-family: "Atkinson";
         src:
