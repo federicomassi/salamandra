@@ -6,6 +6,6 @@ description: "Una semplice home page"
 ---
 > Le chiacchiere costano poco.
 > Mostrami il codice.
-> <cite>Linus Torvalds</cite>
+> <br><cite>Linus Torvalds</cite>
 
 Benvenuti sul sito del FermoLUG!
