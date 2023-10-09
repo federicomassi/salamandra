@@ -13,16 +13,16 @@
         <meta name="robot" content="index, follow" />
         <meta property="og:title" content="{pageTitle}" />
         <meta property="og:type" content="article" />
-        <meta property="og:image" content="http://www.fermolug.it/img/social_pic.jpg" />
+        <meta property="og:image" content="{WebsiteSocialPic}" />
         <meta property="og:url" content="{websiteURL}" />
         <meta property="og:description" content="{metadataDescription}" />
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:url" content="{websiteURL}" />
         <meta name="twitter:title" content="{pageTitle}" />
         <meta name="twitter:description" content="{metadataDescription}" />
-        <meta name="twitter:image" content="http://www.fermolug.it/img/social_pic.jpg" />
+        <meta name="twitter:image" content="{WebsiteSocialPic}" />
         <meta name="author" content="FermoLUG" />
-        <link type="text/plain" rel="author" href="http://www.fermolug.it/humans.txt" />
+        <link type="text/plain" rel="author" href="http://www.linuxfm.org/humans.txt" />
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/light.css" />
         <style>
       :root {--links: #0070CC;}
