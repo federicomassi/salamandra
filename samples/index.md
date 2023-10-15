@@ -9,7 +9,7 @@ description: "Una semplice home page"
 > 
 > <footer><cite>Linus Torvalds</cite></footer>
 
-Benvenuti sul sito del FermoLUG! Scopri gli [eventi](/eventi.html) e i [progetti](/progetti.html) del nostro LUG.
+Benvenuti sul sito del FermoLUG! Scopri gli [eventi](/calendario.html) e i [progetti](/progetti.html) del nostro LUG.
 
 Partecipa, se ti piacciono.
 Proponi, se ti piacerebbe qualcos'altro.
