@@ -29,9 +29,9 @@
       @font-face {
         font-family: "Atkinson";
         src:
-        url("fnt/Atkinson-Hyperlegible-Regular-102.ttf"),
-        url("fnt/Atkinson-Hyperlegible-Regular-102a.woff2"),
-        url("fnt/Atkinson-Hyperlegible-Regular-102.woff");
+        url("http://linuxfm.org/fnt/Atkinson-Hyperlegible-Regular-102.ttf"),
+        url("http://linuxfm.org/fnt/Atkinson-Hyperlegible-Regular-102a.woff2"),
+        url("http://linuxfm.org/fnt/Atkinson-Hyperlegible-Regular-102.woff");
       }
 
       * {font-family: "Atkinson", "Open Sans", sans-serif; text-align: justify;}
