@@ -7,15 +7,15 @@ date: "2023-10-15"
 ---
 ## Perché abbiamo fatto un nuovo sito
 
-Fino ad oggi il FermoLUG ha utilizzato un sistema basato su WordPress. Open source, con un consumo di risorse e di tempo di manutenzione limitato, efficace.
+Fino ad oggi il FermoLUG ha utilizzato un sistema basato su WordPress. Open source, con un consumo di risorse sensibile e con un tempo di manutenzione forzatamente limitato, ma ancora efficace.
 
-Ma il mondo cambia. Le priorità emergono, e serve essere più reattivi e più inclusivi. Il vecchio sito non permetteva una gestione degli aggiornamenti agile e rendeva difficile applicare i moderni standard di inclusività e responsività.
+Intanto il mondo cambia. Le priorità emergono, e serve essere più reattivi e più inclusivi. Il vecchio sito non permetteva una gestione degli aggiornamenti agile e rendeva difficile applicare i moderni standard di inclusività e responsività.
 
 Inoltre il consumo energetico di un sito con questa architettura è difficilmente giustificabile se confrontata con soluzioni statiche.
 
 ## Come abbiamo fatto il nuovo sito
 
-Abbiamo deciso di creare un sito statico basandoci su un progetto di ssg FOSS di sviluppo interno al FermoLUG (Vombato, oggi alla 0.3). I sorgenti, i template, le risorse e le configurazioni sono su un repo pubblico (GitHub) e chiunque può proporre modifiche e nuovi contenuti. L'aggiornamento del sito è semplicissimo.
+Abbiamo deciso di creare un sito statico basandoci su un progetto di (SSG)[https://en.wikipedia.org/wiki/Static_site_generator] FOSS di sviluppo interno al FermoLUG (Vombato, oggi alla 0.3). I sorgenti, i template, le risorse e le configurazioni sono su un repo pubblico (GitHub) e chiunque può proporre modifiche e nuovi contenuti. L'aggiornamento del sito è semplicissimo.
 
 Abbiamo privilegiato i contenuti e la qualità alla gestione di opzioni *fashion* e *trendy*.
 
@@ -27,6 +27,6 @@ Il sito ha un template basato su water.css, organizzato in modo da:
 
 Inoltre, essendo un sito statico, ha un consumo energetico molto più contenuto di quello di un equivalente generato al momento della richiesta. Il tutto con una velocità di scaricamento più elevata e molte meno righe inutili.
 
-Per il rispetto della privacy abbiamo una pagina apposita.
+Per il (rispetto della privacy abbiamo una pagina apposita)[privacy.html].
 
 Per errori, refusi, miglioramenti, ecc. siamo sempre disponibili a imparare insieme. Grazie della partecipazione!
