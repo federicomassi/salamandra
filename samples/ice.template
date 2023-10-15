@@ -40,7 +40,7 @@
       header nav *{font-weight: bold; min-height:3em; color: black; /*border: 1px solid red */}
       nav details {display: inline-flex; width: 100%}
       header nav a img {min-height: 3em}
-      .focus_el {display: flex; flex-direction:row; justify-content: space-between; border-radius: 1em; padding: .5rem; border-top: .3em solid #0070CC; border-bottom: .3em solid #0070CC; gap: .5em;text-align: center} 
+      .focus_el {display: flex; flex-direction:row; justify-content: space-between; border-radius: 1em; padding: .5rem; border-top: .3em solid #0070CC; border-bottom: .3em solid #0070CC; gap: 1em;} 
       .inlineimg{display: inline; height: 1rem}
         </style>
       </head>
