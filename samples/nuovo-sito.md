@@ -29,4 +29,6 @@ Inoltre, essendo un sito statico, ha un consumo energetico molto più contenuto 
 
 Per il [rispetto della privacy abbiamo una pagina apposita](privacy.html).
 
-Per errori, refusi, miglioramenti, ecc. siamo sempre disponibili a imparare insieme. Grazie della partecipazione!
+Per errori, refusi, miglioramenti, ecc. siamo sempre disponibili a imparare insieme.
+
+Grazie della partecipazione!
